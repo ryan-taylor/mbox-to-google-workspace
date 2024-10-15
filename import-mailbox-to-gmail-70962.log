@@ -18493,3 +18493,670 @@ UnicodeEncodeError: 'ascii' codec can't encode characters in position 5061-5063:
 2024-10-15T11:54:07 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 13 11:39:09 2023' to Gmail ID 1864a92525e1b341
 2024-10-15T11:54:07 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4200 in label 'import3'
 2024-10-15T11:54:07 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:09 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 13 11:39:00 2023' to Gmail ID 1864a92301217700
+2024-10-15T11:54:09 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4201 in label 'import3'
+2024-10-15T11:54:09 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:11 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 13 11:38:49 2023' to Gmail ID 1864a9204aedd16b
+2024-10-15T11:54:11 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4202 in label 'import3'
+2024-10-15T11:54:11 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:13 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 13 11:38:39 2023' to Gmail ID 1864a91de6077fae
+2024-10-15T11:54:13 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4203 in label 'import3'
+2024-10-15T11:54:13 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:15 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 13 11:38:12 2023' to Gmail ID 1864a91749acf7d5
+2024-10-15T11:54:15 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4204 in label 'import3'
+2024-10-15T11:54:15 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:17 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 13 11:37:46 2023' to Gmail ID 1864a910f937df1e
+2024-10-15T11:54:17 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4205 in label 'import3'
+2024-10-15T11:54:17 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:19 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 13 11:28:36 2023' to Gmail ID 1864a88aad925c69
+2024-10-15T11:54:19 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4206 in label 'import3'
+2024-10-15T11:54:19 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:21 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support@strongapp.io Mon Feb 13 10:29:50 2023' to Gmail ID 1864a52c9b14402f
+2024-10-15T11:54:21 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4207 in label 'import3'
+2024-10-15T11:54:21 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:23 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'shop@alertdriving.com Sun Feb 12 17:36:12 2023' to Gmail ID 18646b2ca1856757
+2024-10-15T11:54:23 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4208 in label 'import3'
+2024-10-15T11:54:23 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:25 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sun Feb 12 17:33:58 2023' to Gmail ID 18646b0ce88a57d7
+2024-10-15T11:54:25 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4209 in label 'import3'
+2024-10-15T11:54:25 (-0400) 70962 ERROR process_mbox_files (import-mailbox-to-gmail.py:273) Failed to import mbox message
+Traceback (most recent call last):
+  File "/Users/rt/import-mailbox-to-gmail/import-mailbox-to-gmail.py", line 259, in process_mbox_files
+    message_data = io.BytesIO(message.as_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        internalDateSource='dateHeader',
+        ^^^^^^^^^^^^^^^^^
+  File "/Users/rt/import-mailbox-to-gmail/myenv/lib/python3.13/site-packages/googleapiclient/discovery.py", line 1249, in method
+    g.flatten(msgRoot, unixfrom=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 286, in _handle_multipart
+    g.flatten(part, unixfrom=False, linesep=self._NL)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 375, in _handle_message
+    payload = self._encode(payload)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 426, in _encode
+    return s.encode('ascii')
+           ~~~~~~~~^^^^^^^^^
+UnicodeEncodeError: 'ascii' codec can't encode character '\udca0' in position 21778: ordinal not in range(128)
+2024-10-15T11:54:25 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4210 in label 'import3'
+2024-10-15T11:54:25 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:26 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'shop@alertdriving.com Sun Feb 12 17:32:53 2023' to Gmail ID 18646afc18b77139
+2024-10-15T11:54:26 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4211 in label 'import3'
+2024-10-15T11:54:27 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:28 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'quotes@thinkinsure.ca Sun Feb 12 16:44:35 2023' to Gmail ID 18646739fbb2bcdb
+2024-10-15T11:54:28 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4212 in label 'import3'
+2024-10-15T11:54:28 (-0400) 70962 ERROR process_mbox_files (import-mailbox-to-gmail.py:273) Failed to import mbox message
+Traceback (most recent call last):
+  File "/Users/rt/import-mailbox-to-gmail/import-mailbox-to-gmail.py", line 259, in process_mbox_files
+    message_data = io.BytesIO(message.as_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        internalDateSource='dateHeader',
+        ^^^^^^^^^^^^^^^^^
+  File "/Users/rt/import-mailbox-to-gmail/myenv/lib/python3.13/site-packages/googleapiclient/discovery.py", line 1249, in method
+    g.flatten(msgRoot, unixfrom=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 286, in _handle_multipart
+    g.flatten(part, unixfrom=False, linesep=self._NL)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 375, in _handle_message
+    payload = self._encode(payload)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 426, in _encode
+    return s.encode('ascii')
+           ~~~~~~~~^^^^^^^^^
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 5453-5455: ordinal not in range(128)
+2024-10-15T11:54:28 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4213 in label 'import3'
+2024-10-15T11:54:28 (-0400) 70962 ERROR process_mbox_files (import-mailbox-to-gmail.py:273) Failed to import mbox message
+Traceback (most recent call last):
+  File "/Users/rt/import-mailbox-to-gmail/import-mailbox-to-gmail.py", line 259, in process_mbox_files
+    message_data = io.BytesIO(message.as_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        internalDateSource='dateHeader',
+        ^^^^^^^^^^^^^^^^^
+  File "/Users/rt/import-mailbox-to-gmail/myenv/lib/python3.13/site-packages/googleapiclient/discovery.py", line 1249, in method
+    g.flatten(msgRoot, unixfrom=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 286, in _handle_multipart
+    g.flatten(part, unixfrom=False, linesep=self._NL)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 375, in _handle_message
+    payload = self._encode(payload)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 426, in _encode
+    return s.encode('ascii')
+           ~~~~~~~~^^^^^^^^^
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 5563-5565: ordinal not in range(128)
+2024-10-15T11:54:28 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4214 in label 'import3'
+2024-10-15T11:54:28 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:30 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'quotes@mg.thinkinsure.ca Sun Feb 12 16:25:31 2023' to Gmail ID 1864671a3865aed9
+2024-10-15T11:54:30 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4215 in label 'import3'
+2024-10-15T11:54:30 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:32 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'service@intl.paypal.com Sun Feb 12 15:58:07 2023' to Gmail ID 186465906b50cf2b
+2024-10-15T11:54:32 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4216 in label 'import3'
+2024-10-15T11:54:32 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:35 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'info@altitude-sports.com Sun Feb 12 15:57:55 2023' to Gmail ID 1864658d055fc706
+2024-10-15T11:54:35 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4217 in label 'import3'
+2024-10-15T11:54:35 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:37 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'hello@ghost.org Sun Feb 12 13:01:26 2023' to Gmail ID 18645b6a5de0ae9d
+2024-10-15T11:54:37 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4218 in label 'import3'
+2024-10-15T11:54:37 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:39 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Sat Feb 11 20:03:01 2023' to Gmail ID 1864212d941cb973
+2024-10-15T11:54:39 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4219 in label 'import3'
+2024-10-15T11:54:39 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:40 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 11 18:33:27 2023' to Gmail ID 18641c0e8b8fc001
+2024-10-15T11:54:40 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4220 in label 'import3'
+2024-10-15T11:54:41 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:43 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Sat Feb 11 18:31:09 2023' to Gmail ID 18641bec2e398bf1
+2024-10-15T11:54:43 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4221 in label 'import3'
+2024-10-15T11:54:43 (-0400) 70962 ERROR process_mbox_files (import-mailbox-to-gmail.py:273) Failed to import mbox message
+Traceback (most recent call last):
+  File "/Users/rt/import-mailbox-to-gmail/import-mailbox-to-gmail.py", line 259, in process_mbox_files
+    message_data = io.BytesIO(message.as_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        internalDateSource='dateHeader',
+        ^^^^^^^^^^^^^^^^^
+  File "/Users/rt/import-mailbox-to-gmail/myenv/lib/python3.13/site-packages/googleapiclient/discovery.py", line 1249, in method
+    g.flatten(msgRoot, unixfrom=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 286, in _handle_multipart
+    g.flatten(part, unixfrom=False, linesep=self._NL)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 375, in _handle_message
+    payload = self._encode(payload)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 426, in _encode
+    return s.encode('ascii')
+           ~~~~~~~~^^^^^^^^^
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 6739-6741: ordinal not in range(128)
+2024-10-15T11:54:43 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4222 in label 'import3'
+2024-10-15T11:54:43 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:44 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'info@longevclinictoronto.com Fri Feb 10 22:02:00 2023' to Gmail ID 1863d593cdf86a6e
+2024-10-15T11:54:44 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4223 in label 'import3'
+2024-10-15T11:54:44 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:245) Added < to Message-ID: <
+ <YQXPR01MB2598BA8DC2F6447048D9CABEA1DE9@YQXPR01MB2598.CANPRD01.PROD.OUTLOOK.COM>
+2024-10-15T11:54:45 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:47 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'info@altitudeathletictraining.com Fri Feb 10 16:19:06 2023' to Gmail ID 1863c1f75a3c5bba
+2024-10-15T11:54:47 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4224 in label 'import3'
+2024-10-15T11:54:47 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:49 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'digital-no-reply@amazon.com Fri Feb 10 13:37:57 2023' to Gmail ID 1863b8bf6f3b96a0
+2024-10-15T11:54:49 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4225 in label 'import3'
+2024-10-15T11:54:49 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:51 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'noreply_at_bambulab_com_h915nj8dpt72jf_00pt5305@icloud.com Fri Feb 10 07:59:28 2023' to Gmail ID 1863a56130e6e3d8
+2024-10-15T11:54:51 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4226 in label 'import3'
+2024-10-15T11:54:51 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:53 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Thu Feb 09 23:56:21 2023' to Gmail ID 186389bd07acf40c
+2024-10-15T11:54:53 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4227 in label 'import3'
+2024-10-15T11:54:53 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:55 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support@spigen.com Thu Feb 09 22:15:35 2023' to Gmail ID 186383f7b1cb0c26
+2024-10-15T11:54:55 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4228 in label 'import3'
+2024-10-15T11:54:55 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:57 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support@spigen.com Thu Feb 09 22:15:19 2023' to Gmail ID 186383f3d3d4476c
+2024-10-15T11:54:57 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4229 in label 'import3'
+2024-10-15T11:54:57 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:54:58 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Thu Feb 09 20:07:49 2023' to Gmail ID 18637ca8aabf1dfa
+2024-10-15T11:54:58 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4230 in label 'import3'
+2024-10-15T11:54:58 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:01 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support@nphealthclinic.ca Thu Feb 09 14:47:38 2023' to Gmail ID 18636a5670c175e4
+2024-10-15T11:55:01 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4231 in label 'import3'
+2024-10-15T11:55:01 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:03 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'info@1lss.com Thu Feb 09 13:35:21 2023' to Gmail ID 18636633d35936ac
+2024-10-15T11:55:03 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4232 in label 'import3'
+2024-10-15T11:55:03 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:05 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'service@intl.paypal.com Thu Feb 09 07:11:28 2023' to Gmail ID 1863503c18f128de
+2024-10-15T11:55:05 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4233 in label 'import3'
+2024-10-15T11:55:05 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:07 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'noreply_at_bambulab_com_h915nj8dpt72jf_00pt5305@icloud.com Thu Feb 09 07:11:24 2023' to Gmail ID 1863503a99f54131
+2024-10-15T11:55:07 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4234 in label 'import3'
+2024-10-15T11:55:07 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:08 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'asaka@asakayamashita.com Thu Feb 09 03:40:27 2023' to Gmail ID 18634420ab015085
+2024-10-15T11:55:08 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4235 in label 'import3'
+2024-10-15T11:55:08 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:10 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'no_reply@email.apple.com Thu Feb 09 00:20:56 2023' to Gmail ID 186338beb4d5ccba
+2024-10-15T11:55:10 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4236 in label 'import3'
+2024-10-15T11:55:11 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:13 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Wed Feb 08 23:33:31 2023' to Gmail ID 18633608c9090cd3
+2024-10-15T11:55:13 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4237 in label 'import3'
+2024-10-15T11:55:13 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:15 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'monde-dental@clear-connect.net Wed Feb 08 23:27:14 2023' to Gmail ID 186335abc22b55a6
+2024-10-15T11:55:15 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4238 in label 'import3'
+2024-10-15T11:55:15 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:17 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support@nphealthclinic.ca Wed Feb 08 22:28:05 2023' to Gmail ID 186332499c55f734
+2024-10-15T11:55:17 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4239 in label 'import3'
+2024-10-15T11:55:17 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:18 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'do_not_reply@intuit.com Wed Feb 08 21:45:00 2023' to Gmail ID 18632fd2a5ce4292
+2024-10-15T11:55:18 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4240 in label 'import3'
+2024-10-15T11:55:18 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:21 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Wed Feb 08 21:44:42 2023' to Gmail ID 18632fced348c049
+2024-10-15T11:55:21 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4241 in label 'import3'
+2024-10-15T11:55:21 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:23 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'no_reply@email.apple.com Wed Feb 08 20:58:48 2023' to Gmail ID 18632d2d61e07e8c
+2024-10-15T11:55:23 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4242 in label 'import3'
+2024-10-15T11:55:23 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:25 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Wed Feb 08 20:26:52 2023' to Gmail ID 18632b5aae2c6de9
+2024-10-15T11:55:25 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4243 in label 'import3'
+2024-10-15T11:55:25 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:28 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Wed Feb 08 19:47:20 2023' to Gmail ID 186329179ab6dc27
+2024-10-15T11:55:28 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4244 in label 'import3'
+2024-10-15T11:55:28 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:31 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Wed Feb 08 17:46:31 2023' to Gmail ID 1863222dcfe67ed8
+2024-10-15T11:55:31 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4245 in label 'import3'
+2024-10-15T11:55:31 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:33 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'renewals@namecheap.com Wed Feb 08 15:33:21 2023' to Gmail ID 18631a8e6aef9045
+2024-10-15T11:55:33 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4246 in label 'import3'
+2024-10-15T11:55:33 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:35 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'no_reply@email.apple.com Wed Feb 08 00:28:44 2023' to Gmail ID 1862e273dc19ece7
+2024-10-15T11:55:35 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4247 in label 'import3'
+2024-10-15T11:55:35 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:37 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'info@livingfitgear.com Wed Feb 08 00:14:36 2023' to Gmail ID 1862e5fb7adee756
+2024-10-15T11:55:37 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4248 in label 'import3'
+2024-10-15T11:55:37 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:39 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Tue Feb 07 21:38:15 2023' to Gmail ID 1862dd0a8768d7f8
+2024-10-15T11:55:39 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4249 in label 'import3'
+2024-10-15T11:55:39 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:41 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 21:32:41 2023' to Gmail ID 1862dcb855251e31
+2024-10-15T11:55:41 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4250 in label 'import3'
+2024-10-15T11:55:41 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:44 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 19:01:49 2023' to Gmail ID 1862d41659785e93
+2024-10-15T11:55:44 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4251 in label 'import3'
+2024-10-15T11:55:44 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:46 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 16:59:52 2023' to Gmail ID 1862cd1b7544041f
+2024-10-15T11:55:46 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4252 in label 'import3'
+2024-10-15T11:55:46 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:48 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 16:59:21 2023' to Gmail ID 1862cd14a3f598a0
+2024-10-15T11:55:48 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4253 in label 'import3'
+2024-10-15T11:55:48 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:50 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 16:59:02 2023' to Gmail ID 1862cd0fdbd046f8
+2024-10-15T11:55:50 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4254 in label 'import3'
+2024-10-15T11:55:50 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:52 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 16:58:38 2023' to Gmail ID 1862cd09f9139447
+2024-10-15T11:55:52 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4255 in label 'import3'
+2024-10-15T11:55:52 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:54 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 16:37:45 2023' to Gmail ID 1862cbd7fbbf06f7
+2024-10-15T11:55:54 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4256 in label 'import3'
+2024-10-15T11:55:54 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:56 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 15:52:00 2023' to Gmail ID 1862c939cfb738cc
+2024-10-15T11:55:56 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4257 in label 'import3'
+2024-10-15T11:55:56 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:57 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notifications@janeapp.com Tue Feb 07 14:30:15 2023' to Gmail ID 1862c48c41e87154
+2024-10-15T11:55:58 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4258 in label 'import3'
+2024-10-15T11:55:58 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:55:59 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'info@1lss.com Mon Feb 06 18:28:59 2023' to Gmail ID 18627fcfa8435fc1
+2024-10-15T11:55:59 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4259 in label 'import3'
+2024-10-15T11:55:59 (-0400) 70962 ERROR process_mbox_files (import-mailbox-to-gmail.py:273) Failed to import mbox message
+Traceback (most recent call last):
+  File "/Users/rt/import-mailbox-to-gmail/import-mailbox-to-gmail.py", line 259, in process_mbox_files
+    message_data = io.BytesIO(message.as_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        internalDateSource='dateHeader',
+        ^^^^^^^^^^^^^^^^^
+  File "/Users/rt/import-mailbox-to-gmail/myenv/lib/python3.13/site-packages/googleapiclient/discovery.py", line 1249, in method
+    g.flatten(msgRoot, unixfrom=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 286, in _handle_multipart
+    g.flatten(part, unixfrom=False, linesep=self._NL)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 117, in flatten
+    self._write(msg)
+    ~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 182, in _write
+    self._dispatch(msg)
+    ~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 219, in _dispatch
+    meth(msg)
+    ~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 375, in _handle_message
+    payload = self._encode(payload)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/generator.py", line 426, in _encode
+    return s.encode('ascii')
+           ~~~~~~~~^^^^^^^^^
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 48539-48541: ordinal not in range(128)
+2024-10-15T11:55:59 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4260 in label 'import3'
+2024-10-15T11:55:59 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:01 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 06 16:47:17 2023' to Gmail ID 186279feb0ad36f7
+2024-10-15T11:56:01 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4261 in label 'import3'
+2024-10-15T11:56:02 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:04 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'strengthcoachwill@gmail.com Mon Feb 06 15:14:43 2023' to Gmail ID 186274b23a6c7978
+2024-10-15T11:56:04 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4262 in label 'import3'
+2024-10-15T11:56:04 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:06 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'thescienceofrowing@gmail.com Mon Feb 06 14:16:00 2023' to Gmail ID 1862715584af0b00
+2024-10-15T11:56:06 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4263 in label 'import3'
+2024-10-15T11:56:06 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:08 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'hello@mail.blinkist.com Mon Feb 06 13:22:34 2023' to Gmail ID 18626e474ae9e24f
+2024-10-15T11:56:08 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4264 in label 'import3'
+2024-10-15T11:56:08 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:10 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 06 12:54:42 2023' to Gmail ID 18626cafb0175062
+2024-10-15T11:56:10 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4265 in label 'import3'
+2024-10-15T11:56:10 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:12 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 06 12:54:29 2023' to Gmail ID 18626cac7b53f62b
+2024-10-15T11:56:12 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4266 in label 'import3'
+2024-10-15T11:56:12 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:245) Added < to Message-ID: <
+ <YT3PR01MB8562859039C1639E8D29F92AA6DA9@YT3PR01MB8562.CANPRD01.PROD.OUTLOOK.COM>
+2024-10-15T11:56:12 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:14 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'mail@altitudeathletictraining.com Mon Feb 06 12:52:02 2023' to Gmail ID 18626c8795a7309d
+2024-10-15T11:56:14 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4267 in label 'import3'
+2024-10-15T11:56:14 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:16 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Feb 06 12:49:06 2023' to Gmail ID 18626c5d87a30f8e
+2024-10-15T11:56:16 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4268 in label 'import3'
+2024-10-15T11:56:16 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:18 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'no_reply@email.apple.com Mon Feb 06 12:31:08 2023' to Gmail ID 18626b5573f6a5b0
+2024-10-15T11:56:18 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4269 in label 'import3'
+2024-10-15T11:56:18 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:20 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'no_reply@email.apple.com Mon Feb 06 12:30:48 2023' to Gmail ID 18626b5145fe3e07
+2024-10-15T11:56:20 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4270 in label 'import3'
+2024-10-15T11:56:20 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:245) Added < to Message-ID: <
+ <YT3PR01MB856205EE59AD5000CA3C08ACA6DA9@YT3PR01MB8562.CANPRD01.PROD.OUTLOOK.COM>
+2024-10-15T11:56:20 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:22 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'mail@altitudeathletictraining.com Mon Feb 06 12:25:06 2023' to Gmail ID 18626afccdb2748c
+2024-10-15T11:56:22 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4271 in label 'import3'
+2024-10-15T11:56:22 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:23 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sun Feb 05 15:05:59 2023' to Gmail ID 186221ccf606a593
+2024-10-15T11:56:23 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4272 in label 'import3'
+2024-10-15T11:56:23 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:25 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'onlineorders@tesla.com Sun Feb 05 12:03:26 2023' to Gmail ID 18621759fd76c3e5
+2024-10-15T11:56:25 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4273 in label 'import3'
+2024-10-15T11:56:25 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:27 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sun Feb 05 02:26:14 2023' to Gmail ID 1861f653c227b487
+2024-10-15T11:56:27 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4274 in label 'import3'
+2024-10-15T11:56:27 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:29 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'onlineorders@tesla.com Sun Feb 05 01:19:02 2023' to Gmail ID 1861f27a30bf6a1a
+2024-10-15T11:56:29 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4275 in label 'import3'
+2024-10-15T11:56:29 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:30 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 23:30:51 2023' to Gmail ID 1861ec4ab7011b9b
+2024-10-15T11:56:30 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4276 in label 'import3'
+2024-10-15T11:56:30 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:32 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 22:46:05 2023' to Gmail ID 1861e9bafd6ef8f7
+2024-10-15T11:56:32 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4277 in label 'import3'
+2024-10-15T11:56:32 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:34 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:32:42 2023' to Gmail ID 1861ab2aa2a24db1
+2024-10-15T11:56:34 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4278 in label 'import3'
+2024-10-15T11:56:34 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:36 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:32:26 2023' to Gmail ID 1861ab26a797e6d6
+2024-10-15T11:56:36 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4279 in label 'import3'
+2024-10-15T11:56:36 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:38 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:31:20 2023' to Gmail ID 1861ab168a4953d7
+2024-10-15T11:56:38 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4280 in label 'import3'
+2024-10-15T11:56:38 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:40 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:31:07 2023' to Gmail ID 1861ab137e2a50b3
+2024-10-15T11:56:40 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4281 in label 'import3'
+2024-10-15T11:56:40 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:42 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:30:52 2023' to Gmail ID 1861ab0fcba47c2f
+2024-10-15T11:56:42 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4282 in label 'import3'
+2024-10-15T11:56:42 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:44 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:30:03 2023' to Gmail ID 1861ab03d339b738
+2024-10-15T11:56:44 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4283 in label 'import3'
+2024-10-15T11:56:44 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:46 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:29:15 2023' to Gmail ID 1861aaf812aeb15d
+2024-10-15T11:56:46 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4284 in label 'import3'
+2024-10-15T11:56:46 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:48 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:28:40 2023' to Gmail ID 1861aaef9ccc6fbc
+2024-10-15T11:56:48 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4285 in label 'import3'
+2024-10-15T11:56:48 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:50 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:28:27 2023' to Gmail ID 1861aaec45b5503c
+2024-10-15T11:56:50 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4286 in label 'import3'
+2024-10-15T11:56:50 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:52 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:28:04 2023' to Gmail ID 1861aae6d94e47f4
+2024-10-15T11:56:52 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4287 in label 'import3'
+2024-10-15T11:56:52 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:54 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:27:34 2023' to Gmail ID 1861aadf72084a8c
+2024-10-15T11:56:54 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4288 in label 'import3'
+2024-10-15T11:56:54 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:56 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:27:20 2023' to Gmail ID 1861aadc063bd48a
+2024-10-15T11:56:56 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4289 in label 'import3'
+2024-10-15T11:56:56 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:56:58 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:26:27 2023' to Gmail ID 1861aacf1cb9899e
+2024-10-15T11:56:58 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4290 in label 'import3'
+2024-10-15T11:56:58 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:00 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:26:09 2023' to Gmail ID 1861aacaa0eac93a
+2024-10-15T11:57:00 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4291 in label 'import3'
+2024-10-15T11:57:00 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:02 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:25:31 2023' to Gmail ID 1861aac16453dd17
+2024-10-15T11:57:02 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4292 in label 'import3'
+2024-10-15T11:57:02 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:06 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:25:02 2023' to Gmail ID 1861aaba441556df
+2024-10-15T11:57:06 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4293 in label 'import3'
+2024-10-15T11:57:06 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:08 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:24:22 2023' to Gmail ID 1861aab09e791692
+2024-10-15T11:57:08 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4294 in label 'import3'
+2024-10-15T11:57:08 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:10 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:24:09 2023' to Gmail ID 1861aaad73593335
+2024-10-15T11:57:10 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4295 in label 'import3'
+2024-10-15T11:57:10 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:12 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:23:48 2023' to Gmail ID 1861aaa84d976c23
+2024-10-15T11:57:12 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4296 in label 'import3'
+2024-10-15T11:57:12 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:12 (-0400) 70962 DEBUG __call__ (google_auth_httplib2.py:118) Making request: POST https://oauth2.googleapis.com/token
+2024-10-15T11:57:12 (-0400) 70962 WARNING _retry_request (http.py:177) Sleeping 0.94 seconds before retry 1 of 10 for request: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart, after [Errno 32] Broken pipe
+2024-10-15T11:57:13 (-0400) 70962 DEBUG __call__ (google_auth_httplib2.py:118) Making request: POST https://oauth2.googleapis.com/token
+2024-10-15T11:57:13 (-0400) 70962 WARNING _retry_request (http.py:177) Sleeping 1.57 seconds before retry 2 of 10 for request: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart, after [Errno 54] Connection reset by peer
+2024-10-15T11:57:15 (-0400) 70962 DEBUG __call__ (google_auth_httplib2.py:118) Making request: POST https://oauth2.googleapis.com/token
+2024-10-15T11:57:17 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:23:24 2023' to Gmail ID 1861aaa27ed321a5
+2024-10-15T11:57:17 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4297 in label 'import3'
+2024-10-15T11:57:17 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:19 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sat Feb 04 04:23:03 2023' to Gmail ID 1861aa9d5e27ebb2
+2024-10-15T11:57:19 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4298 in label 'import3'
+2024-10-15T11:57:19 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:20 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notify@condocontrol.com Fri Feb 03 22:03:16 2023' to Gmail ID 186194e1441d70e5
+2024-10-15T11:57:20 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4299 in label 'import3'
+2024-10-15T11:57:20 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:22 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notify@condocontrol.com Fri Feb 03 18:07:42 2023' to Gmail ID 18618766c55fb94d
+2024-10-15T11:57:22 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4300 in label 'import3'
+2024-10-15T11:57:22 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:24 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Fri Feb 03 15:56:50 2023' to Gmail ID 18617fea4dffceb6
+2024-10-15T11:57:24 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4301 in label 'import3'
+2024-10-15T11:57:24 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:27 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'notify@condocontrol.com Fri Feb 03 15:50:11 2023' to Gmail ID 18617f88393eec14
+2024-10-15T11:57:27 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4302 in label 'import3'
+2024-10-15T11:57:27 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:29 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'aws-ca-receivables-support@email.amazon.com Fri Feb 03 06:31:30 2023' to Gmail ID 18615f906541e3ae
+2024-10-15T11:57:29 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4303 in label 'import3'
+2024-10-15T11:57:29 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:31 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'noreply@mojang.com Thu Feb 02 22:06:45 2023' to Gmail ID 186142adc8afc428
+2024-10-15T11:57:31 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4304 in label 'import3'
+2024-10-15T11:57:31 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:33 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Thu Feb 02 21:42:20 2023' to Gmail ID 18614149aea68a94
+2024-10-15T11:57:33 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4305 in label 'import3'
+2024-10-15T11:57:33 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:35 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'onlineorders@tesla.com Thu Feb 02 20:53:48 2023' to Gmail ID 18613e81272aad71
+2024-10-15T11:57:35 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4306 in label 'import3'
+2024-10-15T11:57:35 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:37 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'noreply@tesla.com Thu Feb 02 20:53:26 2023' to Gmail ID 18613e7c93732cbc
+2024-10-15T11:57:37 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4307 in label 'import3'
+2024-10-15T11:57:37 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:39 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Thu Feb 02 16:18:56 2023' to Gmail ID 18612ec84c480498
+2024-10-15T11:57:39 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4308 in label 'import3'
+2024-10-15T11:57:39 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:41 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'customerservice@tritoncanada.ca Thu Feb 02 16:18:28 2023' to Gmail ID 18612ebfda2c7753
+2024-10-15T11:57:41 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4309 in label 'import3'
+2024-10-15T11:57:41 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:43 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'NShinas@autohome.pcinsurance.ca Thu Feb 02 15:26:03 2023' to Gmail ID 18612bc0a8a6e84a
+2024-10-15T11:57:43 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4310 in label 'import3'
+2024-10-15T11:57:43 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:45 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Wed Feb 01 23:26:31 2023' to Gmail ID 1860f4da13986c13
+2024-10-15T11:57:45 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4311 in label 'import3'
+2024-10-15T11:57:45 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:47 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Wed Feb 01 23:18:30 2023' to Gmail ID 1860f46496bb25ae
+2024-10-15T11:57:47 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4312 in label 'import3'
+2024-10-15T11:57:47 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:49 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'friends@gardinermuseum.com Wed Feb 01 21:04:56 2023' to Gmail ID 1860ecbede361450
+2024-10-15T11:57:49 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4313 in label 'import3'
+2024-10-15T11:57:49 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:51 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'noreply@em.sohohouse.com Wed Feb 01 20:29:02 2023' to Gmail ID 1860eab12ba7dffe
+2024-10-15T11:57:51 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4314 in label 'import3'
+2024-10-15T11:57:51 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:52 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'vtakeda@rogers.com Wed Feb 01 20:17:34 2023' to Gmail ID 1860ea083dc8acce
+2024-10-15T11:57:52 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4315 in label 'import3'
+2024-10-15T11:57:52 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:53 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'reply@em.sohohouse.com Wed Feb 01 20:11:03 2023' to Gmail ID 1860e9a9ca3de74b
+2024-10-15T11:57:53 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4316 in label 'import3'
+2024-10-15T11:57:53 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:55 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'scheduling@squarespacescheduling.com Wed Feb 01 20:08:00 2023' to Gmail ID 1860e97d942e074c
+2024-10-15T11:57:55 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4317 in label 'import3'
+2024-10-15T11:57:55 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:56 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Wed Feb 01 18:02:19 2023' to Gmail ID 1860e24ce486896c
+2024-10-15T11:57:56 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4318 in label 'import3'
+2024-10-15T11:57:56 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:57 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'valtakeda@rogers.com Wed Feb 01 17:45:50 2023' to Gmail ID 1860e159d5666db3
+2024-10-15T11:57:57 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4319 in label 'import3'
+2024-10-15T11:57:58 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:57:59 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ManulifeVitalityGroupBenefits@manulife.ca Wed Feb 01 14:26:27 2023' to Gmail ID 1860d58d88dabd29
+2024-10-15T11:57:59 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4320 in label 'import3'
+2024-10-15T11:57:59 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:00 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'no-reply@psychologytoday.com Wed Feb 01 14:20:07 2023' to Gmail ID 1860d59575000727
+2024-10-15T11:58:00 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4321 in label 'import3'
+2024-10-15T11:58:00 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:02 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'no_reply@email.apple.com Wed Feb 01 03:08:43 2023' to Gmail ID 1860af2a310bbd72
+2024-10-15T11:58:02 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4322 in label 'import3'
+2024-10-15T11:58:02 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:03 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'no_reply@email.apple.com Wed Feb 01 02:58:23 2023' to Gmail ID 1860ae93126654b9
+2024-10-15T11:58:03 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4323 in label 'import3'
+2024-10-15T11:58:03 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:04 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'service@intl.paypal.com Wed Feb 01 02:34:11 2023' to Gmail ID 1860ad30cd4fc9e5
+2024-10-15T11:58:04 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4324 in label 'import3'
+2024-10-15T11:58:04 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:06 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'noreply_at_bambulab_com_h915nj8dpt72jf_00pt5305@icloud.com Wed Feb 01 02:34:09 2023' to Gmail ID 1860ad2f4a3bad5c
+2024-10-15T11:58:06 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4325 in label 'import3'
+2024-10-15T11:58:06 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:07 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'noreply@uber.com Tue Jan 31 23:19:12 2023' to Gmail ID 1860a20849d20228
+2024-10-15T11:58:07 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4326 in label 'import3'
+2024-10-15T11:58:07 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:09 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ADP.WFN.Application@ADP.com Tue Jan 31 23:17:57 2023' to Gmail ID 1860a1f5d2953f81
+2024-10-15T11:58:09 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4327 in label 'import3'
+2024-10-15T11:58:09 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:245) Added < to Message-ID: <4212f59a-b61f-453f-8611-6b8c187010d4,7dded3b1-ae52-4a1b-ae4e-8c1b72b69a45
+2024-10-15T11:58:09 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:248) Added > to Message-ID: <4212f59a-b61f-453f-8611-6b8c187010d4,7dded3b1-ae52-4a1b-ae4e-8c1b72b69a45>
+2024-10-15T11:58:09 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:10 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'SYNDESUS_INC.HR@adp.com Tue Jan 31 23:15:24 2023' to Gmail ID 1860a1d0bf1a9e1c
+2024-10-15T11:58:10 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4328 in label 'import3'
+2024-10-15T11:58:10 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:11 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support@3dmusclejourney.com Tue Jan 31 20:39:56 2023' to Gmail ID 186098eb4c21fe8d
+2024-10-15T11:58:11 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4329 in label 'import3'
+2024-10-15T11:58:11 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:13 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'service@intl.paypal.com Tue Jan 31 18:36:20 2023' to Gmail ID 186091d9125c37d8
+2024-10-15T11:58:13 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4330 in label 'import3'
+2024-10-15T11:58:13 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:14 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'hello_at_sensa_health_gve3ppf7jjd0qh_6b643266@icloud.com Tue Jan 31 18:36:04 2023' to Gmail ID 186091d4f765fd92
+2024-10-15T11:58:14 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4331 in label 'import3'
+2024-10-15T11:58:14 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:16 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Tue Jan 31 16:15:41 2023' to Gmail ID 186089cd255be31d
+2024-10-15T11:58:16 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4332 in label 'import3'
+2024-10-15T11:58:16 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:17 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'info@longevclinictoronto.com Tue Jan 31 16:06:28 2023' to Gmail ID 186089429e55ce75
+2024-10-15T11:58:17 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4333 in label 'import3'
+2024-10-15T11:58:17 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:18 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Tue Jan 31 15:28:29 2023' to Gmail ID 18608719d7c2d2a6
+2024-10-15T11:58:18 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4334 in label 'import3'
+2024-10-15T11:58:18 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:20 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Tue Jan 31 15:20:00 2023' to Gmail ID 1860869d89e7eca5
+2024-10-15T11:58:20 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4335 in label 'import3'
+2024-10-15T11:58:20 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:21 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'monde-dental@clear-connect.net Mon Jan 30 23:25:57 2023' to Gmail ID 18605002576db23e
+2024-10-15T11:58:21 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4336 in label 'import3'
+2024-10-15T11:58:21 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:23 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Jan 30 22:48:43 2023' to Gmail ID 18604de4d321f6f9
+2024-10-15T11:58:23 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4337 in label 'import3'
+2024-10-15T11:58:23 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:24 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'member_services@opentable.com Mon Jan 30 22:19:09 2023' to Gmail ID 18604c3327f17506
+2024-10-15T11:58:24 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4338 in label 'import3'
+2024-10-15T11:58:24 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:26 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'member_services@opentable.com Mon Jan 30 22:08:34 2023' to Gmail ID 18604b98371bbe13
+2024-10-15T11:58:26 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4339 in label 'import3'
+2024-10-15T11:58:26 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:27 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'info@longevclinictoronto.com Mon Jan 30 21:26:26 2023' to Gmail ID 1860492c12b66d63
+2024-10-15T11:58:27 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4340 in label 'import3'
+2024-10-15T11:58:27 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:29 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Jan 30 21:04:09 2023' to Gmail ID 186047e90ae350ef
+2024-10-15T11:58:29 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4341 in label 'import3'
+2024-10-15T11:58:29 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:30 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Jan 30 20:42:16 2023' to Gmail ID 186046a898d6e754
+2024-10-15T11:58:30 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4342 in label 'import3'
+2024-10-15T11:58:30 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:32 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Jan 30 20:36:58 2023' to Gmail ID 1860465ae1695448
+2024-10-15T11:58:32 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4343 in label 'import3'
+2024-10-15T11:58:32 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:35 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Jan 30 19:01:20 2023' to Gmail ID 186040ddd341dfb1
+2024-10-15T11:58:35 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4344 in label 'import3'
+2024-10-15T11:58:35 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:36 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Jan 30 19:01:03 2023' to Gmail ID 186040ddd341dfb1
+2024-10-15T11:58:36 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4345 in label 'import3'
+2024-10-15T11:58:36 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:37 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Jan 30 18:19:41 2023' to Gmail ID 18603e7ffa4f1c0f
+2024-10-15T11:58:37 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4346 in label 'import3'
+2024-10-15T11:58:37 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:38 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'strengthcoachwill@gmail.com Mon Jan 30 15:14:41 2023' to Gmail ID 186033e8e5e0bc70
+2024-10-15T11:58:38 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4347 in label 'import3'
+2024-10-15T11:58:38 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:40 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support_at_mail_tenpercent_com_ydf9qqm8cf_55de8dba@privaterelay.appleid.com Mon Jan 30 13:04:16 2023' to Gmail ID 18602c731777a60d
+2024-10-15T11:58:40 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4348 in label 'import3'
+2024-10-15T11:58:40 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:42 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'onlineorders@tesla.com Mon Jan 30 09:51:17 2023' to Gmail ID 18602167388bbaf1
+2024-10-15T11:58:42 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4349 in label 'import3'
+2024-10-15T11:58:42 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:43 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support@wealthsimple.com Mon Jan 30 06:04:19 2023' to Gmail ID 1860146b2bfa5e80
+2024-10-15T11:58:43 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4350 in label 'import3'
+2024-10-15T11:58:43 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:46 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'zaidkhan1987@gmail.com Mon Jan 30 04:39:12 2023' to Gmail ID 18600f8ba48f998c
+2024-10-15T11:58:46 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4351 in label 'import3'
+2024-10-15T11:58:46 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:47 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Mon Jan 30 03:22:14 2023' to Gmail ID 18600b25b9f01d52
+2024-10-15T11:58:47 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4352 in label 'import3'
+2024-10-15T11:58:47 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:48 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'donotreply@godaddy.com Mon Jan 30 02:04:38 2023' to Gmail ID 186006b3e61b4650
+2024-10-15T11:58:48 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4353 in label 'import3'
+2024-10-15T11:58:48 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:50 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'ryan@ryantaylor.me Sun Jan 29 22:06:55 2023' to Gmail ID 185ff91adae6c2f9
+2024-10-15T11:58:50 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4354 in label 'import3'
+2024-10-15T11:58:50 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:51 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'support@email.masterclass.com Sun Jan 29 22:01:46 2023' to Gmail ID 185ff8ce066c1518
+2024-10-15T11:58:51 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4355 in label 'import3'
+2024-10-15T11:58:51 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:53 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'customerservice@atgonlinecoaching.com Sun Jan 29 14:04:28 2023' to Gmail ID 185fdd7bebd57737
+2024-10-15T11:58:53 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4356 in label 'import3'
+2024-10-15T11:58:53 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:54 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'onlineorders@tesla.com Sun Jan 29 13:55:47 2023' to Gmail ID 185fdcff319dc0a3
+2024-10-15T11:58:54 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4357 in label 'import3'
+2024-10-15T11:58:54 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
+2024-10-15T11:58:56 (-0400) 70962 DEBUG process_mbox_files (import-mailbox-to-gmail.py:268) Imported mbox message 'OnlineServices@welcome.americanexpress.com Sun Jan 29 11:42:14 2023' to Gmail ID 185fd55b685e574c
+2024-10-15T11:58:56 (-0400) 70962 INFO process_mbox_files (import-mailbox-to-gmail.py:227) Processing message 4358 in label 'import3'
+2024-10-15T11:58:56 (-0400) 70962 DEBUG method (discovery.py:1258) URL being requested: POST https://gmail.googleapis.com/upload/gmail/v1/users/ryan%40ryantaylor.me/messages/import?fields=id&neverMarkSpam=true&processForCalendar=false&internalDateSource=dateHeader&alt=json&uploadType=multipart
