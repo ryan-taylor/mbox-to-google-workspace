@@ -1,0 +1,15 @@
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:325) *** Starting import-mailbox-to-gmail 1.5 on Python 3.9.6 (default, Aug  9 2024, 14:24:13) 
+[Clang 16.0.0 (clang-1600.0.26.3)] ***
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:329) Arguments:
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	auth_host_name: 'localhost'
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	auth_host_port: [8080, 8090]
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	dir: '/Users/rt/import-mailbox-to-gmail/mbox_directory'
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	fix_msgid: True
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	from_message: 0
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	httplib2debuglevel: 0
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	json: 'key.json'
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	log: 'import-mailbox-to-gmail-68635.log'
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	logging_level: 'INFO'
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	noauth_local_webserver: False
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	num_retries: 10
+2024-10-15T09:12:39 (-0400) 68635 INFO main (import-mailbox-to-gmail.py:331) 	replace_quoted_printable: True
