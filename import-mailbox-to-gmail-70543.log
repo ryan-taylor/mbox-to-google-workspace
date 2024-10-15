@@ -1,0 +1,10 @@
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:313) *** Starting import-mailbox-to-gmail 1.6 on Python 3.13.0 (main, Oct  7 2024, 05:02:14) [Clang 16.0.0 (clang-1600.0.26.3)] ***
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:317) Arguments:
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:319) 	dir: '/path/to/your/mbox_directory'
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:319) 	fix_msgid: True
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:319) 	from_message: 0
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:319) 	json: 'key.json'
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:319) 	log: 'import-mailbox-to-gmail-70543.log'
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:319) 	logging_level: 'INFO'
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:319) 	num_retries: 10
+2024-10-15T09:43:33 (-0400) 70543 INFO main (import-mailbox-to-gmail.py:319) 	replace_quoted_printable: True

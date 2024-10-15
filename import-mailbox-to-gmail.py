@@ -1,10 +1,12 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Import mbox files to a specified label for many users.
 
-Liron Newman lironn@google.com
+Original author: Liron Newman lironn@google.com
+Modified by: Ryan Taylor ryantaylor.codes
 
 Copyright 2015 Google Inc. All Rights Reserved.
+Modifications Copyright 2023 Ryan Taylor
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -29,16 +31,13 @@ import mailbox
 import os
 import sys
 
-from apiclient import discovery
-from apiclient.http import set_user_agent
-import httplib2
-from apiclient.http import MediaIoBaseUpload
-from oauth2client.service_account import ServiceAccountCredentials
-import oauth2client.tools
-import OpenSSL  # Required by Google API library, but not checked by it
+from googleapiclient import discovery
+from googleapiclient.http import MediaIoBaseUpload
+from google.oauth2 import service_account
+from google.auth.transport.requests import Request
 
 APPLICATION_NAME = 'import-mailbox-to-gmail'
-APPLICATION_VERSION = '1.5'
+APPLICATION_VERSION = '1.7'  # Incremented for Ryan Taylor's modifications
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.insert',
           'https://www.googleapis.com/auth/gmail.labels']
@@ -47,7 +46,6 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.insert',
 parser = argparse.ArgumentParser(
     description='Import mbox files to a specified label for many users.',
     formatter_class=argparse.RawDescriptionHelpFormatter,
-    parents=[oauth2client.tools.argparser],
     epilog=
     """
  * The directory needs to have a subdirectory for each user (with the full
@@ -102,35 +100,39 @@ parser.add_argument(
     'Optional: Path to a the log file (default: %s-####.log in the current '
     'directory, where #### is the process ID)' % APPLICATION_NAME)
 parser.add_argument(
-    '--httplib2debuglevel',
-    default=0,
-    type=int,
-    help='Debug level of the HTTP library: 0=None (default), 4=Maximum.')
-parser.add_argument(
     '--from_message',
     default=0,
     type=int,
     help=
       'Message number to resume from, affects ALL users and ALL '
       'mbox files (default: 0)')
+parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose logging')
 parser.set_defaults(fix_msgid=True, replace_quoted_printable=True,
                     logging_level='INFO')
 args = parser.parse_args()
 
 
 def get_credentials(username):
-  """Gets valid user credentials from a JSON service account key file.
-
-  Args:
-    username: The email address of the user to impersonate.
-  Returns:
-    Credentials, the obtained credential.
-  """
-  credentials = ServiceAccountCredentials.from_json_keyfile_name(
-      args.json,
-      scopes=SCOPES).create_delegated(username)
-
-  return credentials
+    """Gets valid user credentials from a JSON service account key file."""
+    try:
+        logging.debug(f"Attempting to create credentials for {username}")
+        logging.debug(f"Using JSON key file: {args.json}")
+        logging.debug(f"Scopes: {SCOPES}")
+        
+        with open(args.json, 'r') as json_file:
+            json_data = json.load(json_file)
+            logging.debug(f"Service account email: {json_data.get('client_email')}")
+        
+        credentials = service_account.Credentials.from_service_account_file(
+            args.json,
+            scopes=SCOPES,
+            subject=username)
+        
+        logging.info(f"Successfully created credentials for {username}")
+        return credentials
+    except Exception as e:
+        logging.error(f"Error creating credentials for {username}: {str(e)}")
+        raise
 
 
 def get_label_id_from_name(service, username, labels, labelname):
@@ -190,7 +192,7 @@ def process_mbox_files(username, service, labels):
     for file in files:
       filename = root[len(base_path) + 1:]
       if filename:
-        filename += u'/'
+        filename += '/'
       filename += file
       labelname, ext = os.path.splitext(filename)
       full_filename = os.path.join(root, file)
@@ -209,7 +211,7 @@ def process_mbox_files(username, service, labels):
       if os.path.isdir(full_filename):
         # This "shouldn't happen" but it does, sometimes.
         # Assume this is an Apple Mail export, so there's an mbox file inside the dir.
-        full_filename += os.path.join(full_filename, 'mbox')
+        full_filename = os.path.join(full_filename, 'mbox')
         logging.info("Using '%s' instead of the directory", full_filename)
       logging.info("Starting processing of '%s'", full_filename)
       number_of_successes_in_label = 0
@@ -254,10 +256,7 @@ def process_mbox_files(username, service, labels):
           # Use media upload to allow messages more than 5mb.
           # See https://developers.google.com/api-client-library/python/guide/media_upload
           # and http://google-api-python-client.googlecode.com/hg/docs/epy/apiclient.http.MediaIoBaseUpload-class.html.
-          if sys.version_info.major == 2:
-            message_data = io.BytesIO(message.as_string())
-          else:
-            message_data = io.StringIO(message.as_string())
+          message_data = io.BytesIO(message.as_bytes())
           media = MediaIoBaseUpload(message_data, mimetype='message/rfc822')
           message_response = service.users().messages().import_(
               userId=username,
@@ -298,14 +297,13 @@ def main():
   """Import multiple users' mbox files to Gmail.
 
   """
-  httplib2.debuglevel = args.httplib2debuglevel
   # Use args.logging_level if defined.
   try:
     logging_level = args.logging_level
   except AttributeError:
     logging_level = 'INFO'
 
-  # Default logging to standard output
+  logging_level = logging.DEBUG if args.verbose else logging.INFO
   logging.basicConfig(
       level=logging_level,
       format='%(asctime)s %(levelname)s %(funcName)s@%(filename)s %(message)s',
@@ -330,6 +328,24 @@ def main():
   for arg, value in sorted(vars(args).items()):
     logging.info('\t%s: %r', arg, value)
 
+  logging.info(f"Checking directory: {args.dir}")
+  logging.info(f"Directory exists: {os.path.exists(args.dir)}")
+  logging.info(f"Is directory: {os.path.isdir(args.dir)}")
+  
+  try:
+      dir_contents = os.listdir(args.dir)
+      logging.info(f"Directory contents: {dir_contents}")
+  except Exception as e:
+      logging.error(f"Error listing directory contents: {str(e)}")
+
+  try:
+      subdirs = next(os.walk(args.dir))[1]
+      logging.info(f"Subdirectories: {subdirs}")
+  except StopIteration:
+      logging.error("No subdirectories found")
+  except Exception as e:
+      logging.error(f"Error walking directory: {str(e)}")
+
   number_of_labels_imported_without_error = 0
   number_of_labels_imported_with_some_errors = 0
   number_of_labels_failed = 0
@@ -339,15 +355,12 @@ def main():
   number_of_users_imported_with_some_errors = 0
   number_of_users_failed = 0
 
-  for username in next(os.walk(unicode(args.dir)))[1]:
+  for username in next(os.walk(args.dir))[1]:
     try:
       logging.info('Processing user %s', username)
       try:
         credentials = get_credentials(username)
-        http = credentials.authorize(set_user_agent(
-            httplib2.Http(),
-            '%s-%s' % (APPLICATION_NAME, APPLICATION_VERSION)))
-        service = discovery.build('gmail', 'v1', http=http)
+        service = discovery.build('gmail', 'v1', credentials=credentials)
       except Exception:
         logging.error("Can't get access token for user %s", username)
         raise

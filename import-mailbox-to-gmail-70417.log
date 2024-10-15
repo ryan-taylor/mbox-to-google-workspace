@@ -1,0 +1,47 @@
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:313) *** Starting import-mailbox-to-gmail 1.6 on Python 3.13.0 (main, Oct  7 2024, 05:02:14) [Clang 16.0.0 (clang-1600.0.26.3)] ***
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:317) Arguments:
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:319) 	dir: '/Users/rt/import-mailbox-to-gmail/mbox_directory'
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:319) 	fix_msgid: True
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:319) 	from_message: 0
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:319) 	json: 'key.json'
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:319) 	log: 'import-mailbox-to-gmail-70417.log'
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:319) 	logging_level: 'INFO'
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:319) 	num_retries: 10
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:319) 	replace_quoted_printable: True
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:332) Processing user ryan@ryantaylor.me
+2024-10-15T09:38:06 (-0400) 70417 ERROR main (import-mailbox-to-gmail.py:337) Can't get access token for user ryan@ryantaylor.me
+2024-10-15T09:38:06 (-0400) 70417 ERROR main (import-mailbox-to-gmail.py:375) Can't process user ryan@ryantaylor.me
+Traceback (most recent call last):
+  File "/Users/rt/import-mailbox-to-gmail/import-mailbox-to-gmail.py", line 334, in main
+    credentials = get_credentials(username)
+  File "/Users/rt/import-mailbox-to-gmail/import-mailbox-to-gmail.py", line 120, in get_credentials
+    credentials = service_account.Credentials.from_service_account_file(
+        args.json,
+        scopes=SCOPES,
+        subject=username)
+  File "/Users/rt/import-mailbox-to-gmail/myenv/lib/python3.13/site-packages/google/oauth2/service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filename, require=["client_email", "token_uri"]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/rt/import-mailbox-to-gmail/myenv/lib/python3.13/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'key.json'
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:376) *** Done importing all users from directory '/Users/rt/import-mailbox-to-gmail/mbox_directory'
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:377) *** Import summary:
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:378)     0 users imported with no failures
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:380)     0 users imported with some failures
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:382)     1 users failed
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:384)     0 labels (mbox files) imported with no failures
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:386)     0 labels (mbox files) imported with some failures
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:388)     0 labels (mbox files) failed
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:390)     0 messages imported successfully
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:392)     0 messages failed
+
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:396) *** Check log file import-mailbox-to-gmail-70417.log for detailed errors.
+2024-10-15T09:38:06 (-0400) 70417 INFO main (import-mailbox-to-gmail.py:397) Finished.
+
+
